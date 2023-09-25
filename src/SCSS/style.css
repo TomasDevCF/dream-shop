@@ -93,7 +93,7 @@
   font-size: 1.1em;
   width: 70%;
   padding: 13px 0px !important;
-  display: block;
+  display: block; 
   cursor: pointer;
 }
 .page-product .main-product .info-product-p .buttons-buy .add-button:hover {
@@ -137,11 +137,22 @@
     margin-left: 15px;
   }
 }
+
+.links {
+  text-decoration: none;
+  color: white;
+  font-size: .7rem;
+}
+
 @media (max-width: 531px) {
   .image-product img {
     width: 99% !important;
     border-radius: 25px;
   }
+
+  .links {
+  font-size: .5rem;
+}
 }
 .containerbuy {
   overflow: hidden;
@@ -151,7 +162,7 @@
 .pagebuy {
   position: absolute;
   display: flex;
-  top: 80px;
+  top: 60px;
   justify-content: space-between;
   width: 100%;
   height: 100%;
@@ -438,5 +449,7 @@
 .max-container-error .container-error .mylink:hover {
   text-decoration: underline;
 }
+
+
 
 /*# sourceMappingURL=style.css.map */

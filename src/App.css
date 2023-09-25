@@ -114,7 +114,7 @@ main {
   display: flex;
   height: 100%;
   position: absolute;
-  top: 80px;
+  top: 60px;
 }
 
 footer {
@@ -286,7 +286,7 @@ input {
 
 .p-page {
   position: absolute;
-  top: 80px;
+  top: 60px;
 }
 
 .center-welc {

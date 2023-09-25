@@ -15,33 +15,25 @@ export function Headers({ isCart = false }) {
   }
 
   useEffect(() => {
-    setCart(JSON.parse(localStorage.getItem("cart")))
+    setCart(JSON.parse(localStorage.getItem("cart")));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  }, []);
 
   useEffect(() => {
-    let price = 0; 
+    let price = 0;
 
     for (let i = 0; i < cart.length; i++) {
       price = price + cart[i].price;
     }
-    setTotal(price)
-
+    setTotal(price);
   }, [cart]);
 
   return (
     <header>
       <div className="left">
-        <Link to="/">
-          <img
-            height="60px"
-            width="61px"
-            style={{ borderRadius: 95 }}
-            src="../../../favicon.jpg"
-            alt="TomasB"
-          />
+        <Link to="/" className="links">
+          <h1>Dream Shop</h1>
         </Link>
-        <h3>STORE</h3>
       </div>
       <div className="medium">
         <div className="search">

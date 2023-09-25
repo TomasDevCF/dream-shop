@@ -20,7 +20,7 @@ export function PPage() {
                 style={{ color: "black" }}
                 to="/search"
               >
-                TomShop
+                Dream Shop
               </Link>
               !
             </h1>
