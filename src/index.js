@@ -9,7 +9,7 @@ import { BuyPage } from "./components/BuyPage";
 import { Cart } from "./components/CartContext";
 
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route,
   Navigate,
@@ -17,7 +17,7 @@ import {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <Router>
+  <HashRouter>
     <Cart>
     <Routes>
       <Route path="/" element={<PPage />} />
@@ -28,7 +28,7 @@ root.render(
       <Route path="*" element={<Navigate to="/404" />} />
     </Routes>
     </Cart>
-  </Router>
+  </HashRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
