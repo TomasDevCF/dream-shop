@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2e5e69a.css",
-    "main.js": "/static/js/main.c848039c.js",
-    "index.html": "/index.html",
-    "main.d2e5e69a.css.map": "/static/css/main.d2e5e69a.css.map",
-    "main.c848039c.js.map": "/static/js/main.c848039c.js.map"
+    "main.css": "/dream-shop/static/css/main.d2e5e69a.css",
+    "main.js": "/dream-shop/static/js/main.c848039c.js",
+    "index.html": "/dream-shop/index.html",
+    "main.d2e5e69a.css.map": "/dream-shop/static/css/main.d2e5e69a.css.map",
+    "main.c848039c.js.map": "/dream-shop/static/js/main.c848039c.js.map"
   },
   "entrypoints": [
     "static/css/main.d2e5e69a.css",
